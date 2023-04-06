@@ -1,0 +1,226 @@
+.container{
+    display: flex;
+    border: 4px grey solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    
+}
+
+span{
+  font-family: monospace;
+  color: white;
+  position: relative;
+  left: 10px;
+}
+
+/*Child Selector*/
+.container > div {
+    padding: 10px;
+    position: relative;
+    top: 18px;
+    left: 170px;
+}
+
+
+a:link{
+   text-decoration: none;
+   font-size: 16px; 
+   font-family: monospace;
+}
+
+a:hover{
+   color: orange;
+}
+
+body{
+    background-color:beige;
+
+}
+
+span2{
+    font-family: cursive;
+    text-align: center;
+}
+
+/*attribute selector*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:white;
+    color: black;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    
+  }
+  
+  .forms {
+    border-radius: 2px;
+    background-color:grey;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+  }
+
+  #sunset{
+      border: 5px grey solid;
+      width: 300px;
+      height: 400px;
+      padding: 2px;
+      margin: 2px;
+      position: relative;
+      left: 465px;
+  } 
+
+  table {
+     width: 780px;
+     position: relative;
+     left: 220px;
+
+  }
+
+ /*Multiple selector*/
+  a:visited, th {
+    color: white;
+}
+
+
+  th{
+    font-size: 18px;
+    font-family: monospace;
+    
+  }
+
+  td{
+    font-family: cursive;
+}
+
+  #audio {
+    text-align: center;
+  }
+
+  .footer{
+    background-color: grey;
+  }
+
+  .tables{
+    display: flex;
+    border: 4px black solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: grey;
+  }
+
+  #grid{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     position: relative;
+     left: 180px;
+     font-family: monospace;
+     font-size: 16px;
+     
+  }
+
+span3 {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+/*Universal selector*/
+#photo{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#night{
+  border: 4px grey solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+#apartment{
+  border: 4px grey solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+
+}
+
+#sky{
+  border: 4px grey solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+#video{
+  border: 4px grey solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+/*sibling selector*/
+.h3contact ~ .pcontact{
+        border-top: 2px solid grey;
+   
+}
+
+/*Adjacent Sibling selector*/
+.lieducation + .lieducation2{
+     color: blue;
+}
+
+/*Pseudoelement Selector*/
+.pseudo::selection{
+  color: orange;
+   
+}
+
+/*Button color*/
+
+.mybutton {
+  background-color: black;
+  color: white;
+}
+
+/* media queries */
+
+/* CSS for desktop devices */
+@media screen and (min-width: 1400px) {
+  
+}
+
+/* CSS for tablet devices */
+@media screen and (min-width: 1000px) and (max-width: 999px) {
+  
+}
+
+/* CSS for mobile devices */
+@media screen and (max-width: 400px) {
+
+}
+
+
+/*button color*/
+
+
+
+
